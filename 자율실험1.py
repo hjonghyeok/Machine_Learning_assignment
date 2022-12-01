@@ -15,7 +15,7 @@ x = im.reshape(-1,im.size).T
 Times = []
 k_s = []
 
-for k in range(2,100):
+for k in range(2,20):
     times = []
     for i in range(0,10):
         start = time.time()
